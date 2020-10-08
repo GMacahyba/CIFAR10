@@ -1,0 +1,322 @@
+{
+    "input_channels": 3,
+    "test_size": 0.05,
+    "num_classes" : 10,
+    "sample_size": 60000,
+    "val_size": 0.01,
+    "img_size" : 32,
+    "network": {
+        "conv_layers": [
+            {
+                "num_filters": 16,
+                "kernel_size": "(1, 1)",
+                "padding": "same",
+                "activation": "relu",
+		"batch_norm": 0,
+		"max_pool": 0
+            },
+	    {
+                "num_filters": 16,
+                "kernel_size": "(1, 1)",
+                "padding": "same",
+                "activation": "relu",
+		"batch_norm": 0,
+		"max_pool": 0
+            },
+	    {
+                "num_filters": 16,
+                "kernel_size": "(1, 1)",
+                "padding": "same",
+                "activation": "relu",
+		"batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 16,
+                "kernel_size": "(1, 1)",
+                "padding": "same",
+                "activation": "relu",
+		"batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 32,
+                "kernel_size": "(1, 1)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+	    {
+                "num_filters": 32,
+                "kernel_size": "(1, 1)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+	    {
+                "num_filters": 32,
+                "kernel_size": "(1, 1)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+	    {
+                "num_filters": 32,
+                "kernel_size": "(1, 1)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 1,
+		"max_pool": 0
+            },
+	    {
+                "num_filters": 64,
+                "kernel_size": "(1, 1)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 64,
+                "kernel_size": "(1, 1)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 64,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 64,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 1,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 128,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+	    {
+                "num_filters": 128,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 128,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 128,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 1,
+		"max_pool": "(2,2)"
+            },
+	    {
+                "num_filters": 128,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 128,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 128,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 128,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 1,
+		"max_pool": "(2,2)"
+            },
+	    {
+                "num_filters": 256,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 256,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 256,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 256,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 1,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 256,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 256,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 256,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 256,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 1,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 512,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 512,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 512,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+	    {
+                "num_filters": 512,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 1,
+		"max_pool": "(2,2)"
+            },
+            {
+                "num_filters": 512,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 512,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 512,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 0,
+		"max_pool": 0
+            },
+            {
+                "num_filters": 512,
+                "kernel_size": "(3, 3)",
+                "padding": "same",
+                "activation": "relu",
+                "batch_norm": 1,
+		"max_pool": 0
+            }
+        ],
+        "dense_layers": [
+            {
+                "size": 4096,
+                "activation": "relu"
+            }
+        ],
+        "dropout_rate": 0.4,
+        "output_activation": "softmax",
+        "optimizer": "adam",
+        "loss": "categorical_crossentropy",
+        "metrics": [
+            "accuracy"
+        ],
+        "reduce_lr":
+            {"monitor": "val_loss",
+	     "factor": 0.2,
+             "patience": 5,
+	     "min_lr": 0.00001
+	     },
+        "epochs": 40,
+        "batch_size": 256,
+	"lr_rate" : 0.001
+    }
+}
